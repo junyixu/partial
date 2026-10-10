@@ -1,1 +1,6 @@
+> [!WARNING]
+> **This project is archived and no longer maintained.**
+>
+> [snacks.nvim](https://github.com/folke/snacks.nvim)'s [`image`](https://github.com/folke/snacks.nvim/blob/main/docs/image.md) module now renders LaTeX math expressions inline in `markdown` and `latex` documents via the Kitty Graphics Protocol (kitty, ghostty, wezterm, tmux), which covers what this plugin set out to do. Please use it instead.
+
 IO and process creation speed still limit the compilation speed of LaTeX. For small documents, more than an instant preview is needed. Today's editors should be able to search forward and backward. Still, sometimes, for a complex formula (especially one with many parentheses), it is not wise to compile the entire document to find the place to change. It is a practical feature to partially compile the current formula without compiling the whole document, taking into account the custom macros and macro packages used.
